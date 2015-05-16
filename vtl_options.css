@@ -1,0 +1,97 @@
+.vtls_settingspage {
+  background-color:#DEEBF2;
+}
+.vtls_settingspage h2 {
+  margin-bottom:40px;
+}
+
+#vtl_optionslegend {
+  margin-top:20px;
+}
+
+#vtl_optionslegend a {
+  display:inline-block;
+  border:1px solid #A1A1A1;
+  padding:10px 15px;margin-right:5px;
+  color:#444;font-size:16px;
+  cursor:pointer;margin-bottom:-1px;
+}
+#vtl_optionslegend a i {
+  font-size:12px;display:inline-block;margin-left:5px;color:#858585
+}
+
+#vtl_optionslegend a.active{
+  border-bottom-color:#fff;
+  background-color:#fff;
+}
+
+#vtl_optionsform {
+  border:1px solid #A1A1A1;
+  background-color:#fff;
+}
+
+#vtl_optionsform fieldset {
+  padding:20px;
+}
+
+#vtl_optionsform fieldset a {
+  cursor:pointer;
+  text-decoration: none;
+-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;-ms-transition: all 0.5s ease;transition: all 0.5s ease;
+}
+
+#vtl_optionsform fieldset a img {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+}
+
+#vtl_optionsform fieldset a:hover img {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+
+
+#vtl_optionsform table {width:100%;}
+
+#vtl_optionsform tr { }
+#vtl_optionsform tr td { padding: 15px 5px;border-bottom:1px solid #F0F0F0;  }
+#vtl_optionsform tr td:first-child { width:200px; }
+#vtl_optionsform input { width: 350px; }
+.wp-picker-input-wrap input {width:inherit !important;}
+#vtl_optionsform input#submit { width: inherit;margin-left:20px; }
+#vtl_optionsform p.submit { margin:0px;padding:0px;margin-top:40px;}
+#vtl_optionsform textarea { width: 350px; height:100px; }
+
+a#gtvtl {text-decoration:none;}
+
+ul#adminmenu li a.toplevel_page_vtl_settings {
+  margin:10px 0px;
+}
+
+.multiimgs {
+  display:block;float:left;
+}
+.multiimg {
+  display:inline-block;width:100px;float:left;
+}
+
+#submit_vtls_btn {
+  text-align:center;
+}
+
+li#toplevel_page_vir2al_settings {
+    margin:10px 0px;
+}
+
+.wp-picker-holder {
+  position: absolute;
+  z-index: 5;
+}
