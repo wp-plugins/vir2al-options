@@ -3,7 +3,7 @@
 Plugin Name:    vir2al Options
 Plugin URI:     http://vir2al.ch
 Description:    A easy way to manage your options Page.
-Version:        1
+Version:        1.0.1
 Author:         Nico Martin
 Author URI:     http://vir2al.ch
 
@@ -114,7 +114,7 @@ jQuery(document).ready(function($){
 
 
 function submit_vtls(){
-    var data = jQuery('#vtl_optionsform fieldset:visible').serialize();
+    var data = jQuery('#vtl_optionsform fieldset:visible select, #vtl_optionsform fieldset:visible textarea, #vtl_optionsform fieldset:visible input').serialize();
     var data = data+'&action=vtlo_save_settings&_ajax_nonce='+jQuery('#_wpnonce').val();
     var btnwidth = jQuery('#submit_vtls_btn').width();
     var btnhtml = jQuery('#submit_vtls_btn').html();
@@ -319,7 +319,7 @@ function get_vtlo_textarea($id){
 function get_vtlo_input($id){
     global $settings_list;
   $settings_list[]=$id;
-  $html='<input type="text" name="'.$id.'" id="'.$id.'" value=\''.stripslashes(get_option($id,'')).'\' />';
+  $html='<input type="text" name="'.$id.'" id="'.$id.'" value="'.htmlentities(stripslashes(get_option($id,''))).'" />';
   return $html;
 }
 
