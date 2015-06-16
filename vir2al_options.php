@@ -3,7 +3,7 @@
 Plugin Name:    vir2al Options
 Plugin URI:     http://vir2al.ch
 Description:    A easy way to manage your options Page.
-Version:        1
+Version:        1.0.1
 Author:         Nico Martin
 Author URI:     http://vir2al.ch
 
